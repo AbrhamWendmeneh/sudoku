@@ -1,0 +1,24 @@
+
+
+1) Build sodoku game
+In this section we have build sodoku game and the things which are required for our game are as follows
+- first you have to build the UI for the game
+- then after this you have to do the logic of the game 
+ and in this case the things which we are going to do are as follows
+ the values of the board are randomly generated which means when the user clicks the button new game/ restart the values which are setted are given randomly 
+ and this makes the board to be random rather than of doing the same thing again and again
+ 
+ And for this case I have defined functions 
+    - which generates random board
+    - based on this random board there are some functions which are used this are shuffle function, solve and also possible functions 
+	this functions have been developed for the purpose of making the game to be efficient and for the algorithm part I have some form of back-tracking 
+	which is under the solve and also the possible functions.
+
+
+Back to the UI
+1) We have to specify where does we use the usestate and also the useeffect react hooks 
+
+USESTATE: in this case all of the cells in the board have state which is listed as follows
+	: "." this is so as to specify the values in this case is empty and the user has chance to fill out
+	: num values these are the values in which the user has no control over them and they used as the main point of the game
+	: 

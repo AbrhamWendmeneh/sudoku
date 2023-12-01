@@ -13,8 +13,9 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cellInput{
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0px;
+  border: 1px solid black;
+
+}
+.cellInput.non-empty {
+  background-color: lightgray; /* Choose your desired background color */
+}
+table{
+  border-collapse: collapse;
+  border: 3px solid bisque;
+  background-color: bisque;
+
+
+}
+td{
+  padding: 0px;
+}
+row-border{
+  border-bottom: 2px solid black;
+
+}
+cell-border{
+  border-right: 10px solid black;
+
+}
+.button-container{
+  display: flex;
+  margin: 0.3rem;
+  
+}
+button{
+  margin: 5px;
+  background-color:#307DF6;
+  border: 0px ;
+  padding:10px 5px;
+  width: 3rem;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
 }
